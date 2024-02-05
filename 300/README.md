@@ -156,4 +156,10 @@ Type in a message (e.g. ```Hello from Home Assistant```), optionally give it a t
 
 Now press **Call Service**.
 
-The message will appear in the telegram chat window that you started likewise you can call this service from your automations as you would with sending notification messages you can also send photos videos sound Clips to your telegram all with no size limitations a put in the link description to everything talked about to help with your simple installation so there you have it a way of sending messages to yourself via the telegraph app and also to be able to send messages to the telegram app independently of having home assistant app there is a lot more that you can do with telegram integration and we have only skimmed the surface read through the documentation for yourself and if you'd like a dedicated Deep dive video on Telegram then let me know in the comments below enjoy sending those telegram messages until the next one
+The message will appear in the telegram chat window that you started. Likewise you can call this service from your automations as you would with sending notification messages. You can also send photos, videos, sound clips to your telegram. All with no size limitations.
+
+I've put a the link in the description to help with your simple installation.
+
+So there you have it; a way of sending messages to yourself via the Telegraph app and also to be able to send messages to the Telegram app independently of having Home Assistant app.
+
+There is a lot more that you can do with Telegram integration and we have only skimmed the surface. Read through the documentation for yourself and if you'd like a dedicated Deep dive video on Telegram then let me know in the comments below. Enjoy sending those telegram messages. Until the next one!
