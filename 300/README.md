@@ -59,7 +59,9 @@ Now we need to get the **chat ID** for yourself. To do this we'll need to talk t
 
 The number that you're looking for is the **id** number (here: 6791..........). Copy this and paste it along with the **API key** information somewhere safe. 
 
-Now let's start up our bot in Telegram. Search for it (here: ```HomeAssistantX_bot```). In the search bar select it and press **start**. At the time of recording I'm running on home assistant core version 2023 do111. We'll need to make a change to our ```configuration.yaml``` file.
+Now let's start up our bot in Telegram. Search for it (here: ```HomeAssistantX_bot```). In the search bar select it and press **start**. 
+
+At the time of recording I'm running on home assistant core version 2023.11.1. We'll need to make a change to our ```configuration.yaml``` file.
 
 To do this we'll need a file editor. I'd recommend using ```Studio Code Server```. You can follow along with my installation and configuration video in the link above or in the descriptions below. 
 
