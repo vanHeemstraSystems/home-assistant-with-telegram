@@ -35,11 +35,15 @@ This is a cool way that telegram can process inputs and requests from users such
 
 To be able to send messages from Home Assistant to Telegram will need to create a Bot. Telegram Bots are actually pretty simple to create. 
 
-In search field search for **atbf father**. Make sure that this is the one with the blue tick to the right and there are quite a few that are listed. 
+In search field search for **@botfather**. Make sure that this is the one with the blue tick to the right and there are quite a few that are listed. 
 
-Select this and press **start**. This will bring up a full list of commands that you can action on this bot. 
+Select this and press **start**. 
 
-We want to select the new bot. 
+**NOTE**: If you already have created Bots previously, just send the following message to BotFather: ```/start```.
+
+This will bring up a full list of commands that you can action on this bot. 
+
+We want to select the **/new bot**. 
 
 You will be prompted to give the bot a name (here: ...). You'll be prompted to give the bot a username (here: ..._bot). I'd recommend using the same name that you created the bot, but using an underscore bot at the end of it. For the username **atbot father** will give you the congratulation message but the only thing we need here is the **key**.
 
