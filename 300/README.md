@@ -144,7 +144,7 @@ Now let's **restart** Home Assistant.
 
 Navigate to **Developer Tools**. Check your configuration. Press **Restart**. Confirm **Restart** and again now let's wait for Home Assistant to come back.
 
-Now let's send a message to our Telegram Bot (here ```HomeAssistantX_bot```). Select **Services**. Search for and select ```telegram_bot``` and select. 
+Now let's send a message to our Telegram Bot (here ```HomeAssistantX_bot```). Select **Services**. Search for and select ```Telegram bot: Send message``` and select. 
 
 Now this has been vastly improved in recent revisions of Home Assistance so the old method of having to code a message has gone and it's now much more like the way to send notifications to Home Assistant companion app.
 
