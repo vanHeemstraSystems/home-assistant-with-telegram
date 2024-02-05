@@ -55,7 +55,7 @@ Copy this and paste it somewhere safe.
 
 For a description of the Bot API, see this page: https://core.telegram.org/bots/api
 
-Now we need to get the **chat ID** for yourself. To do this we'll need to talk to another bot called **get IDs**. Navigate to the search in the top left of telegram and search and select for **get IDs**. Select **get IDs** bot, press the start message in your Bot. The bot will return your ID information. 
+Now we need to get the **chat ID** for yourself. To do this we'll need to talk to another bot called **GetIDs Bot**. Navigate to the search in the top left of telegram and search and select for **getids**. Select **GetIDs Bot**, press the start message in your Bot. The bot will return your ID information.
 
 The number that you're looking for is the **ID number**. Copy this and paste it along with the **API key** information somewhere safe. 
 
