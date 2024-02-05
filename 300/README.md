@@ -148,6 +148,8 @@ Now let's send a message to our Telegram Bot (here ```HomeAssistantX_bot```). Se
 
 Now this has been vastly improved in recent revisions of Home Assistance so the old method of having to code a message has gone and it's now much more like the way to send notifications to Home Assistant companion app.
 
+If not already there, choose go to **UI** mode.
+
 So let's give it a message and send it.
 
 Type in a message (e.g. ```Hello from Home Assistant```), optionally give it a title (e.g. ```Home Assistant Message``). 
