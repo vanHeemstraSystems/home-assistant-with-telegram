@@ -6,7 +6,7 @@ First off there are a few obvious prerequisites that we'll need a telegram accou
 
 To install this navigate to https://telegram.org. 
 
-- Search for and select the telegram for PC and Linux. Press the **Get Telegram for windows x64**. Open the file.
+- Search for and select the telegram for PC and Linux. Press the **Get Telegram for Windows x64**. Open the file.
 - Search for and select the telegram for macOS. Press the **Get Telegram for macOS** button. Open the file.
 
 Once it's downloaded, select your language. Select destination and press okay. Select the start menu folder. Create a desktop icon and press install. 
