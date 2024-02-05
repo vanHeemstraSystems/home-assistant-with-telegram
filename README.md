@@ -1,7 +1,7 @@
-repository-name
-# Repository Name
+home-assistant-with-telegram
+# Home Assistant with Telegram
 
-Based on "ABC" at https://www.abc.com/
+Based on "HOME ASSISTANT - TELEGRAM INTEGRATION - TUTORIAL" at https://www.youtube.com/watch?v=jz3FDJ9rtqM
 
 ## 100 - Introduction
 
