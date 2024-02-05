@@ -49,9 +49,11 @@ You will be prompted to give the bot a name (here: ```HomeAssistant```). You'll 
 
 **NOTE**: Due to ```HomeAssistant_bot``` already having been taken, we opted to add the ```X``` in the name.
 
-I'd recommend using the same name that you created the bot, but using an ```_bot``` at the end of it. For the username **@BotFather** will give you the congratulation message but the only thing we need here is the **key**. We can find the new bot at [t.me/HomeAssistantX_bot](https://t.me/HomeAssistantX_bot).
+I'd recommend using the same name that you created the bot, but using an ```_bot``` at the end of it. For the username **@BotFather** will give you the congratulation message but the only thing we need here is the **key** (here: 6488695438:AAF...........). We can find the new bot at [t.me/HomeAssistantX_bot](https://t.me/HomeAssistantX_bot).
 
 Copy this and paste it somewhere safe. 
+
+For a description of the Bot API, see this page: https://core.telegram.org/bots/api
 
 Now we need to get the **chat ID** for yourself. To do this we'll need to talk to another bot called **get IDs**. Navigate to the search in the top left of telegram and search and select for **get IDs**. Select **get IDs** bot, press the start message in your Bot. The bot will return your ID information. 
 
