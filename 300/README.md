@@ -65,7 +65,32 @@ At the time of recording I'm running on Home Assistant Core version 2023.11.1. W
 
 To do this we'll need a file editor. I'd recommend using ```Studio Code Server```. You can follow along with my installation and configuration video in the link above or in the descriptions below. 
 
-Navigate to ```Studio Code Server```. Select your ```configuration.yaml``` file. Navigate back to the Home Assistant Telegram web page (https://home-assistant.io/integrations/telegram). Scroll down till you reach the configuration section. Press the **copy** button. Navigate back into Home Assistant. 
+Navigate to ```Studio Code Server```. Select your ```configuration.yaml``` file. Navigate back to the Home Assistant Telegram web page (https://home-assistant.io/integrations/telegram). Scroll down till you reach the **Configuration** section. 
+
+```
+# Example configuration.yaml entry for the Telegram Bot
+telegram_bot:
+  - platform: polling
+    api_key: YOUR_API_KEY
+    allowed_chat_ids:
+      - CHAT_ID_1 # example: 123456789 for the chat_id of a user
+      - CHAT_ID_2 # example: -987654321 for the chat_id of a group
+      - CHAT_ID_3
+
+# Example configuration.yaml entry for the notifier
+notify:
+  - platform: telegram
+    name: NOTIFIER_NAME
+    chat_id: CHAT_ID_1
+
+  # It is possible to add multiple notifiers by using another chat_id
+  # the example belows shows an additional notifier which sends messages to the bot which is added to a group
+  - platform: telegram
+    name: NOTIFIER_NAME_OF_GROUP
+    chat_id: CHAT_ID_2
+```
+
+Press the **copy** button. Navigate back into Home Assistant. 
 
 Select an appropriate space. Paste that code in the telegram bot. Remove the ```chat IDs``` one to three. Insert into this section the ***chat ID number*** that you copied from before. 
 
