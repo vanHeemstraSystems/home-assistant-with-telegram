@@ -49,7 +49,7 @@ You will be prompted to give the bot a name (here: ```HomeAssistant```). You'll 
 
 **NOTE**: Due to ```HomeAssistant_bot``` already having been taken, we opted to add the ```X``` in the name.
 
-I'd recommend using the same name that you created the bot, but using an ```_bot``` at the end of it. For the username **@BotFather** will give you the congratulation message but the only thing we need here is the **key**.
+I'd recommend using the same name that you created the bot, but using an ```_bot``` at the end of it. For the username **@BotFather** will give you the congratulation message but the only thing we need here is the **key**. We can find the new bot at [t.me/HomeAssistantX_bot](https://t.me/HomeAssistantX_bot).
 
 Copy this and paste it somewhere safe. 
 
