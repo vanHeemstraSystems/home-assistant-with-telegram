@@ -152,7 +152,7 @@ If not already there, choose go to **UI** mode.
 
 So let's give it a message and send it.
 
-Type in a message (e.g. ```Hello from Home Assistant```), optionally give it a title (e.g. ```Home Assistant Message``). 
+Type in a message (e.g. ```Hello from Home Assistant```), optionally give it a title (e.g. ```Message from Home Assistant``). 
 
 Now press **Call Service**.
 
