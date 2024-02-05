@@ -3,6 +3,8 @@ home-assistant-with-telegram
 
 Based on "HOME ASSISTANT - TELEGRAM INTEGRATION - TUTORIAL" at https://www.youtube.com/watch?v=jz3FDJ9rtqM
 
+Based on "Automating Telegram Responses with TelePilot and N8N" at https://telepilot.co/blog/telegram-configure-auto-responder/
+
 ## 100 - Introduction
 
 See [README.md](./100/README.md)
