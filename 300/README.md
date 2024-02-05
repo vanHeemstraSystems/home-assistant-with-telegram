@@ -94,7 +94,7 @@ Press the **copy** button.
 
 Navigate back into Home Assistant. 
 
-Select an appropriate space. Paste that code in the ```configuration.yaml``` file. Remove the ```chat IDs``` one to three. Insert into this section the ***chat ID number*** that you copied from before (here: 6791..........).
+Select an appropriate space. Paste that code in the ```configuration.yaml``` file. Remove the ```CHAT_ID_``` 1 to 3. Insert into this section the ***chat ID number*** that you copied from before (here: 6791..........).
 
 Replace the text for your **API key** with the **API key** that was provided by the ```Bot Father``` (here: 6488695438:AAF...........). 
 
@@ -115,7 +115,7 @@ notify:
     chat_id: CHAT_ID_1
 ```
 
-In the ```notify command``` replace the ```chat ID``` with the number that you copied above in the allowed chat IDs and we're finished.
+In the ```notify``` command replace ```CHAT_ID_1``` with the number that you copied above in the allowed chat IDs and we're finished.
 
 ```
 # Example configuration.yaml entry for the Telegram Bot
