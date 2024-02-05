@@ -90,13 +90,30 @@ notify:
     chat_id: CHAT_ID_2
 ```
 
-Press the **copy** button. Navigate back into Home Assistant. 
+Press the **copy** button. 
 
-Select an appropriate space. Paste that code in the telegram bot. Remove the ```chat IDs``` one to three. Insert into this section the ***chat ID number*** that you copied from before. 
+Navigate back into Home Assistant. 
 
-I'll just use a dummy number in this case.
+Select an appropriate space. Paste that code in the ```configuration.yaml``` file. Remove the ```chat IDs``` one to three. Insert into this section the ***chat ID number*** that you copied from before (here: 6791..........).
 
-Replace the text for your **API key** with the **API key** that was provided by the ```bopf Father```. The ```chat ID``` underneath the notify for the second chat is not required and can be removed.
+Replace the text for your **API key** with the **API key** that was provided by the ```Bot Father``` (here: 6488695438:AAF...........). 
+
+The ```chat ID``` underneath the notify for the second chat is not required and can be removed:
+
+```
+# Example configuration.yaml entry for the Telegram Bot
+telegram_bot:
+  - platform: polling
+    api_key: 6488695438:AAF...........
+    allowed_chat_ids:
+      - 6791..........
+
+# Example configuration.yaml entry for the notifier
+notify:
+  - platform: telegram
+    name: NOTIFIER_NAME
+    chat_id: CHAT_ID_1
+```
 
 In the ```notify command``` replace the ```chat ID``` with the number that you copied above in the allowed chat IDs and we're finished.
 
