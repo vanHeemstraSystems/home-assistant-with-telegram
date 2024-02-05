@@ -2,7 +2,11 @@
 
 So if we navigate to the Home assistant telegram integration (https://home-assistant.io/integrations/telegram) there are some detailed instructions that will guide us us through the installation process.
 
-First off there are a few obvious prerequisites that we'll need a telegram account and have to set it up on a device. This is a totally free and for the purposes of this demonstration we'll be doing this on a Windows desktop version and Mac OS desktop version.
+First off there are a few obvious prerequisites that we'll need: 
+- a telegram account
+- and have to set it up on a device. 
+
+This is a totally free and for the purposes of this demonstration we'll be doing this on a Windows desktop version and Mac OS desktop version.
 
 To install this navigate to https://telegram.org. 
 
