@@ -45,7 +45,7 @@ This will bring up a full list of commands that you can action on this bot.
 
 We want to select the **/new bot**. 
 
-You will be prompted to give the bot a name (here: ...). You'll be prompted to give the bot a username (here: ..._bot). I'd recommend using the same name that you created the bot, but using an underscore bot at the end of it. For the username **atbot father** will give you the congratulation message but the only thing we need here is the **key**.
+You will be prompted to give the bot a name (here: ```HomeAssistant```). You'll be prompted to give the bot a username (here: ```HomeAssistant_bot```). I'd recommend using the same name that you created the bot, but using an ```_bot``` at the end of it. For the username **@BotFather** will give you the congratulation message but the only thing we need here is the **key**.
 
 Copy this and paste it somewhere safe. 
 
