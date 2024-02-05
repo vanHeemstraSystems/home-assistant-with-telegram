@@ -57,9 +57,9 @@ For a description of the Bot API, see this page: https://core.telegram.org/bots/
 
 Now we need to get the **chat ID** for yourself. To do this we'll need to talk to another bot called **GetIDs Bot**. Navigate to the search in the top left of telegram and search and select for **getids**. Select **GetIDs Bot**, press the start message in your Bot. The bot will return your ID information.
 
-The number that you're looking for is the **ID number**. Copy this and paste it along with the **API key** information somewhere safe. 
+The number that you're looking for is the **id** number (here: 6791..........). Copy this and paste it along with the **API key** information somewhere safe. 
 
-Now let's start up our bot in Telegram. Search for it. In the search bar select it and press **start**. At the time of recording I'm running on home assistant core version 2023 do111. We'll need to make a change to our ```configuration.yaml``` file.
+Now let's start up our bot in Telegram. Search for it (here: ```HomeAssistantX_bot```). In the search bar select it and press **start**. At the time of recording I'm running on home assistant core version 2023 do111. We'll need to make a change to our ```configuration.yaml``` file.
 
 To do this we'll need a file editor. I'd recommend using ```Studio Code Server```. You can follow along with my installation and configuration video in the link above or in the descriptions below. 
 
