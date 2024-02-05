@@ -117,6 +117,21 @@ notify:
 
 In the ```notify command``` replace the ```chat ID``` with the number that you copied above in the allowed chat IDs and we're finished.
 
+```
+# Example configuration.yaml entry for the Telegram Bot
+telegram_bot:
+  - platform: polling
+    api_key: 6488695438:AAF...........
+    allowed_chat_ids:
+      - 6791..........
+
+# Example configuration.yaml entry for the notifier
+notify:
+  - platform: telegram
+    name: NOTIFIER_NAME
+    chat_id: 6791..........
+```
+
 We can save this by exiting out with an "x".
 
 While Home Assistant can send Telegram messages, it can't send messages to any person. It can only send messages to users who have invited a conversation with the bot and whose chat ID is known.
