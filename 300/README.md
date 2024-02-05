@@ -1,14 +1,18 @@
 # 300 - Building Our Application
 
-So if we navigate to the Home assistant telegram integration there are some detailed instructions that will guide us us through the installation process.
+So if we navigate to the Home assistant telegram integration (via **Settings** > **Devices & Services** > **+ ADD INTEGRATION**, **Telegram**) there are some detailed instructions that will guide us us through the installation process.
 
-First off there are a few obvious prerequisites that will need a telegram account and have to set it up on a device this is a totally free and for the purposes of this demonstration we'll be doing this on a Windows desktop version.
+First off there are a few obvious prerequisites that will need a telegram account and have to set it up on a device. This is a totally free and for the purposes of this demonstration we'll be doing this on a Windows desktop version.
 
-To install this navigate to telegram.org search for and select the telegram for PC and Linux press the get telegram for windows x64 open the file. 
+To install this navigate to https://telegram.org. Search for and select the telegram for PC and Linux. Press the **get telegram for windows x64**. Open the file. 
 
-Once it's downloaded select your language select destination and press okay select the start menu folder create a desktop icon and press install. 
+Once it's downloaded, select your language. Select destination and press okay. Select the start menu folder. Create a desktop icon and press install. 
 
-Remember to tick launch Telegram and finish. Now let's start messaging. If you have telegram already installed onto a mobile device you can scan the QR code from within that device application and link it automatically or log in using your mobile phone number. Enter your mobile phone number. Press next you'll receive a code on your mobile phone number. Enter this code in here you'll be directed to the main chat screen for telegram. So what we need now is a telegram bot this is a cool way that telegram can process inputs and requests from users such as turning on the lights and then informing you in this has been done but for the purposes of this video we'll be sending messages from home assistant to telegram. 
+**NOTE**: Remember to tick ```launch Telegram``` and finish. 
+
+Now let's start messaging. 
+
+If you have telegram already installed onto a mobile device you can scan the QR code from within that device application and link it automatically or log in using your mobile phone number. Enter your mobile phone number. Press next you'll receive a code on your mobile phone number. Enter this code in here you'll be directed to the main chat screen for telegram. So what we need now is a telegram bot this is a cool way that telegram can process inputs and requests from users such as turning on the lights and then informing you in this has been done but for the purposes of this video we'll be sending messages from home assistant to telegram. 
 
 To be able to send messages from home assistant to telegram will need to create a bot telegram. Bots are actually pretty simple to create. In search field search for atbf father make sure that this is the one with the blue tick to the right and there are quite a few that are listed. Select this and press start. This will bring up a full list of commands that you can action on this bot. 
 
