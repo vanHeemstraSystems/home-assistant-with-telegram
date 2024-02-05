@@ -25,6 +25,8 @@ Enter your mobile phone number.
 
 Press **Next**. You'll receive a code on your mobile phone number. 
 
+**NOTE**: Should you not have access to your mobile phone, you can alternatively read the messages through the web interface of Telegram at https://web.telegram.org. 
+
 Enter this code in here. You'll be directed to the main chat screen for telegram. 
 
 So what we need now is a Telegram Bot.
